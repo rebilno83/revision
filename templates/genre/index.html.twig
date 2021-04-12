@@ -1,6 +1,6 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello GenreController!{% endblock %}
+{% block title %}Genre{% endblock %}
 
 {% block body %}
 <style>
@@ -9,12 +9,19 @@
 </style>
 
 <div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
-
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code><a href="{{ 'C:/Users/Administrateur/Symfony/Reprise/revision/src/Controller/GenreController.php'|file_link(0) }}">src/Controller/GenreController.php</a></code></li>
-        <li>Your template at <code><a href="{{ 'C:/Users/Administrateur/Symfony/Reprise/revision/templates/genre/index.html.twig'|file_link(0) }}">templates/genre/index.html.twig</a></code></li>
-    </ul>
+    <h1> Ajout d'un nouveau genre de fichier </h1>
 </div>
+<!-- forulaire d'insertion -->
+<form action="/insertGenre" method="post">
+  <fieldset>
+    <legend>Formulaire de création</legend>
+    <div class="form-group row">
+      <label for="staticNom" class="col-sm-2 col-form-label">Nom du genre</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="staticNom" name="nomGenre">
+      </div>
+    </div>
+    </fieldset>
+    <button type="submit" class="btn btn-primary">Ajouter</button>
+</form>
 {% endblock %}

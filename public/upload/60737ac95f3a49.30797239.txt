@@ -1,0 +1,24 @@
+
+
+Simuler un utilisateur et regarder l'échange via tshark 
+Utilisatio dde stp pour le téléchargement 
+Docker ftp server 
+regarder comment il récupère le mot de passe via le ftp ( pas de cryptage ) 
+être capable de simuler un petit réseau 
+
+docker-apline-ftp-server
+
+Soutenance :
+
+Expliquer ce que l'on devait faire : simulation de réseau pour faire l'annalyse de trame ( qui seront fait par des utilisateurs) 
+Pourquoi Docker et pas la virtualisation (demande trop de ressource (système et autre)
+Démo sur le fonctionnement de docker (prévoir des captures )
+Présentation 
+Répartition des tâches
+Explication de script docker 
+Serveur (ftp) // à faire avant la présentation 
+Faire des tâches cron (simuler des tâche ( nombre de connexion ( soit toutes les 20 s)
+Faire une page web avec un mot de passe ( en http)
+Utilisation de curl (post et get ) // voir les faille du formulaire 
+
+
